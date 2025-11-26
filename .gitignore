@@ -1,0 +1,49 @@
+# Environment variables (NEVER commit!)
+.env
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+typechain/
+typechain-types/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+oracle_keeper.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment info (optional - can commit if you want)
+deployment-info.json
+
+# Test files
+.coverage
+.pytest_cache/
